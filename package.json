@@ -1,0 +1,31 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "Bot Discord z systemem ticketów, rekrutacji, konkursów i więcej",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "minecraft",
+    "tickets",
+    "recruitment"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  },
+  "nodeVersion": "23.1.0"
+}
