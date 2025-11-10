@@ -51,13 +51,7 @@ Opcjonalnie możesz dostosować:
 ### Tryb produkcyjny
 
 ```bash
-npm run start
-```
-
-### Tryb developerski (z auto-reload przez nodemon)
-
-```bash
-npm run dev
+npm start
 ```
 
 ## Rejestrowanie komend
@@ -68,4 +62,5 @@ Skrypt podczas startu rejestruje komendy slash za pomocą REST API Discorda. Upe
 ## Licencja
 
 Projekt jest udostępniony na licencji MIT. Szczegóły w pliku `LICENSE`
+
 
